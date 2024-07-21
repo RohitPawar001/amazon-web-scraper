@@ -19,6 +19,10 @@ This repository contains a Scrapy project to scrape information about iPhones li
     cd amazon
     ```
 
+  2. Use scrapeops api
+     Add the your scrapeops aip key  and user agents url in settings.py file <br>
+     Add your user agents and browser header url from scrapeops into the middlewares.py file
+
 2. Create a virtual environment and activate it:
     ```bash
     python -m venv venv
@@ -45,14 +49,14 @@ This repository contains a Scrapy project to scrape information about iPhones li
    This will start the spider and save the scraped data to `smartphones.csv`.
 
 ## Project Resources
-website :-  https://www.amazon.in/s?bbn=1389401031&rh=n%3A1389401031%2Cp_89%3AApple&dc&qid=1717581794&rnid=3837712031&ref=lp_1389401031_nr_p_89_0
+
 <br>
 python :- https://www.python.org/downloads/
 <br>
 scrapy :- https://scrapy.org/
 
 ## Scrapeops 
-  scrapeops is used to attach the fake user agents and fake browser headers for not getting blocked by amazon https://scrapeops.io/
+  scrapeops is used to attach the fake user agents and fake browser headers for not getting blocked by website https://scrapeops.io/
 
 
 
