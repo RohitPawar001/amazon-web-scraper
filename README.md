@@ -24,13 +24,13 @@ This repository contains a Scrapy project to scrape information about iPhones li
      Add the your scrapeops aip key  and user agents url in settings.py file <br>
      Add your user agents and browser header url from scrapeops into the middlewares.py file
 
-4. Create a virtual environment and activate it:
+3. Create a virtual environment and activate it:
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-5. Install the required dependencies:
+4. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
     ```
