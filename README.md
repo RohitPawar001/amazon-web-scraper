@@ -2,7 +2,7 @@
 
 
 
-This repository contains a Scrapy project to scrape information about iPhones listed on Amazon. The scraper extracts details such as the product name, price, rating, and number of reviews.
+This repository contains a Scrapy project to scrape information about iPhones listed on website. The scraper extracts details such as the product name, price, rating, and number of reviews.
 
 ## Table of Contents
 
@@ -19,17 +19,18 @@ This repository contains a Scrapy project to scrape information about iPhones li
     cd amazon
     ```
 
-  2. Use scrapeops api
+2. Use scrapeops api
+ <br>
      Add the your scrapeops aip key  and user agents url in settings.py file <br>
      Add your user agents and browser header url from scrapeops into the middlewares.py file
 
-2. Create a virtual environment and activate it:
+4. Create a virtual environment and activate it:
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-3. Install the required dependencies:
+5. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
     ```
